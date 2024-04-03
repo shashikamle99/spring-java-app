@@ -27,7 +27,7 @@ jobs:
         projectBaseDir: .
         args: >
           -Dsonar.organization=my-org
-          -Dsonar.projectKey=my-web-app-121
+          -Dsonar.projectKey=sprong-java-app
 
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
